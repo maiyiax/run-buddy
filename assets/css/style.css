@@ -3,14 +3,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-  .text-left{
-      text-align: left;
-  }
-
-  .text-right {
-      text-align: right;
-  }
  
  body {
     /* I'm a CSS comment! */
@@ -131,10 +123,6 @@ header {
 
   /* What we do Start */
   
-  .intro {
-      text-align: center;
-  }
-
 
   .intro p {
       line-height: 1.7;
@@ -142,6 +130,7 @@ header {
       width: 80%;
       font-size: 20px;
       margin: 0 auto;
+      text-align: center;
   }
 
   /* What we do styles end */
@@ -151,10 +140,11 @@ header {
   .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -170,7 +160,6 @@ header {
   /* What you do Styles */
 
   .steps {
-      text-align: center;
       background: #fce138;
   }
 
@@ -203,7 +192,7 @@ header {
   /* Meet the Trainers Styles */
 
   .trainers {
-      text-align: center;
+
   }
 
   .trainer {
@@ -246,7 +235,6 @@ header {
   /* Reach Out Styles Start */
 
   .contact {
-    text-align: center;
     background: #024e76;
   }
 
@@ -313,3 +301,15 @@ header {
     color: #024e76;
   }
 /* Footer Styles End */
+
+.text-left{
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-row {
+  display: flex;
+}
