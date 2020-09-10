@@ -352,6 +352,8 @@ header {
   }
 /* Footer Styles End */
 
+/* Utility Styles */
+
 .text-left{
   text-align: left;
 }
@@ -363,6 +365,8 @@ header {
 .flex-row {
   display: flex;
 }
+
+/* Utility Styles End */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
