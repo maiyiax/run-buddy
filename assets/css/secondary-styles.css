@@ -1,3 +1,5 @@
+/* hero styles */
+
 .hero {
     background-position: bottom;
     height: auto;
@@ -22,7 +24,7 @@
 }
 
 .secondary-content h3 {
-    font-size: 25 px;
+    font-size: 25px;
     margin: 20px 0;
 }
 

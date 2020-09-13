@@ -17,6 +17,7 @@
   }
 
   /* apply styles to <header> */
+
 header {
     padding: 20px 35px;
     background-color: var(--tertiary-color);
@@ -74,9 +75,9 @@ header {
 
   /* Header Style End */
 
-  section {
-    padding: 60px;
-  }
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
 
   /* Hero Style Start */
   .hero {
@@ -126,9 +127,13 @@ header {
     outline: none;
   }
 
-  .hero-form label {
-    margin: 0 5px;
-  }
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
 
   .hero-form button {
     color: var(--primary-color);
@@ -231,9 +236,9 @@ header {
       text-align: center;
   }
 
-  /* What we do styles end */
+/* What we do styles end */
 
-  /* Consolidated Styles */
+/* Consolidated Styles */
 
   .section-title {
     font-size: 48px;
@@ -313,9 +318,9 @@ header {
     color: var(--secondary-color);
   }
 
-  /*What you do styles end */
+/*What you do styles end */
 
-  /* Meet the Trainers Styles */
+/* Meet the Trainers Styles */
 
   .trainers {
     width: 100%;
@@ -418,9 +423,9 @@ header {
       font-size: 17px;
   }
 
-  /* Meet the Trainers Styles End */
+/* Meet the Trainers Styles End */
 
-  /* Reach Out Styles Start */
+/* Reach Out Styles Start */
 
   .contact {
     background: var(--secondary-color);
@@ -494,7 +499,7 @@ header {
     border-radius: 10px;
   }
 
-  /* Reach Out Styles End */
+/* Reach Out Styles End */
 
    /*Footer Styles Start */
 
